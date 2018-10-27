@@ -1,0 +1,42 @@
+body{
+    font-family:  "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif
+}
+.vertical-center-modal {
+    text-align: center;
+    white-space: nowrap;
+}
+  
+.vertical-center-modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+}
+  
+.vertical-center-modal .ant-modal {
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+    text-align: left;
+}
+.ant-list-item-content-single{
+    font-size: 17px;
+    line-height: 2;
+    justify-content:space-between !important;
+}
+.ant-card-head-title{
+    font-size: 17px !important; 
+}
+.VideoPlayer{
+    width: 820px !important;
+}
+.PdfPlayer{
+    width: 80% !important;
+    height: 580px !important;
+}
+#components-layout-demo-side .logo {
+    height: 32px;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+  }
